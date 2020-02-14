@@ -54,7 +54,7 @@ ROOT_URLCONF = 'eco.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['static/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
